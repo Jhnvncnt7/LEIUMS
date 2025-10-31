@@ -29,7 +29,7 @@ void screenTemplate(int color, int x, int y, char* title){ //SCREEN TEMPLATE
     textcolor(color); gotoxy(x,y); cprintf(title); gotoxy(1,4); textcolor(WHITE);
 }
 void returnMenu(){
-    gotoxy(1,43); textcolor(YELLOW); cprintf("Press any key to return to main MENU."); textcolor(WHITE);
+    gotoxy(1,23); textcolor(YELLOW); cprintf("Press any key to return to main MENU."); textcolor(WHITE);
     getch(); return;
 }
 void clearLines(int start, int end) {
@@ -41,7 +41,7 @@ void clearLines(int start, int end) {
 // ############################## DISPLAY MENU ##############################
 void displayMenu(){
     // SCREEN DISPLAY
-    screenTemplate(9, 38, 2, "MENU");
+    screenTemplate(9, 35, 2, "MAIN MENU");
     cout << "[1] Display Equipments\n";
     cout << "[2] Search Equipments\n";
     cout << "[3] Add Equipments\n";
