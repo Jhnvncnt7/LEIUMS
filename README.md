@@ -6,3 +6,10 @@
   - Program prototype <br>
   - Added main menu function <br>
   - Started some functions for the menu options (some aren't working) <br>
+# 01-11-2025 v1.2
+  - Working display data <br>
+  - Working add data <br>
+  - Working save data <br>
+  - Added empty input detector in name <br>
+  - Added empty input detector in quantity <br>
+  - Added empty input detector in date <br>
