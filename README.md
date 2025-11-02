@@ -13,3 +13,10 @@
   - Added empty input detector in name <br>
   - Added empty input detector in quantity <br>
   - Added empty input detector in date <br>
+# 02-11-2025 v1.3
+  - Display can handle more than 15 data <br>
+  - Data type validation function (int n float) <br>
+  - Add data input validation <br>
+  - Add data cancel feature <br>
+  - Add data empty input validation <br>
+  - Validated data storing <br>
