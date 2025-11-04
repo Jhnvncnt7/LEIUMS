@@ -31,3 +31,36 @@
   - Search data added (only by name for now) <br>
   - More search options coming soon...
   - Remove data coming soon...
+# 04-11-2025 v1.4.2
+  - Added paginated display (15 data per page) with left/right arrow navigation <br>
+  - Improved equipment display layout (aligned columns, header, and footer) <br>
+  - Added formatted date display (DD-MM-YYYY with leading zeros) <br>
+  - Unified color scheme and improved interface consistency <br>
+  - Improved search results layout to match new display format <br>
+  - Optimized data loading and validation logic for consistency <br>
+  - Lowercase normalization for condition and status inputs <br>
+  - Added delete functionality inside search results (via DEL key) <br>
+  - Improved overall reliability when updating or removing equipment data <br>
+  - Minor code cleanup and structural improvements for maintainability <br>
+# 04-11-2025 v1.5.1
+  - Removed quantity and depreciation fields from Equipment <br>
+  - Introduced efficiency, status, and category fields <br>
+  - Reduced max_equipments to 500 for memory management <br>
+  - Implemented record deletion within search <br>
+  - Added keyboard navigation (↑ ↓ ← →, DEL, ESC) <br>
+  - Added search by name filtering <br>
+  - Updated file format to match new structure fields <br>
+  - Updated saveAllEquipment() to fully overwrite with the new field order <br>
+  - Rewritten loadEquipment() for safer token parsing <br>
+  - Page counter and data range display <br>
+  - Navigation with left/right arrows <br>
+  - Unified error(), info(), and success() message formatting <br>
+  - Added returnMenu() hint prompts <br>
+  - Cleaner color and spacing layout for all screens <br>
+# 04-11-2025 v1.5.2
+  - Reduced max_equipments from 500 → 350 for better stability <br>
+  - Added automatic efficiency, availability, and category computation based on status and usageHours <br>
+  - Implemented dynamic availability logic (e.g., available = 100%, maintenance = 50%, etc.) <br>
+  - Added bordered dialog with all equipment info <br>
+  - Activated via ENTER key from search results <br>
+  - Now shows only key data (Name, Status, Condition, Efficiency %, Avail %) <br>
