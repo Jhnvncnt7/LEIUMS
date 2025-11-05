@@ -64,14 +64,14 @@
   - Added bordered dialog with all equipment info <br>
   - Activated via ENTER key from search results <br>
   - Now shows only key data (Name, Status, Condition, Efficiency %, Avail %) <br>
-#04-11-2025 v1.5.3
--Added Edit Equipment feature (allows modifying condition, hours used, and status)
--Added View Summary / Statistics screen
--Displays total number of equipment by category (Functional / For Repair / For Replacement)
--Shows operational efficiency percentage
--Added color-coded bar chart (green = functional, yellow = repair, red = replacement)
--Added exit confirmation prompt (“Are you sure you want to exit? Y/N”)
--Implemented auto file creation (ensureFileExists()) to prevent missing file errors
--Unified menu layout with new options (Edit, Summary)
--Fixed deletion logic to auto-refresh and prevent stale results
--Minor color formatting and interface consistency updates
+# 04-11-2025 v1.5.3
+  -Added Edit Equipment feature (allows modifying condition, hours used, and status) <br>
+  -Added View Summary / Statistics screen <br>
+  -Displays total number of equipment by category (Functional / For Repair / For Replacement) <br>
+  -Shows operational efficiency percentage <br>
+  -Added color-coded bar chart (green = functional, yellow = repair, red = replacement) <br>
+  -Added exit confirmation prompt (“Are you sure you want to exit? Y/N”) <br>
+  -Implemented auto file creation (ensureFileExists()) to prevent missing file errors <br>
+  -Unified menu layout with new options (Edit, Summary) <br>
+  -Fixed deletion logic to auto-refresh and prevent stale results <br>
+  -Minor color formatting and interface consistency updates <br>
